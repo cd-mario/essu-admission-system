@@ -23,15 +23,14 @@
 </template>
 <style scoped>
     .logo {
-        background: green;
+        background: darkgreen;
         text-align: center;
     }
     .logo img {
-        width: 600px;
+        width: 500px;
     }
     nav {
-
-        background: rgba(0, 0, 0, 0.9);
+        background: #161b22;
     }
     ul {
         display: flex;
@@ -54,6 +53,6 @@
     }
     a:hover {
         background: #76BA1B;
-        color: rgba(0, 0, 0, 0.7);
+        color: #161b22;
     }
 </style>
