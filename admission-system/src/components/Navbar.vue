@@ -37,19 +37,19 @@
         list-style: none;
         justify-content: center;
         justify-content: space-evenly;
-        height: 3rem;
+        height: 2rem;
     }
     li {
         position: relative;
-        top: 1rem;
-
+        top: 0.4rem;
     }
     a {
+        font-size: 0.9rem;
         text-decoration: none;
         color: #76BA1B;
-        font-weight: 700;
+        font-weight: 600;
         text-transform: uppercase;
-        padding: 1rem 0.3rem 0.8rem 0.3rem;
+        padding: 0.5rem 0.3rem 0.5rem 0.3rem;
     }
     a:hover {
         background: #76BA1B;
