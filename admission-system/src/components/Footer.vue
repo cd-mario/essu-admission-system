@@ -2,7 +2,6 @@
     <div>
         <footer>
             <small>
-                this is footer
             </small>
         </footer>
     </div>

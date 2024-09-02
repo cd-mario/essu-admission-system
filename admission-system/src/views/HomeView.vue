@@ -4,8 +4,14 @@
     <div class="home">
       <div class="overlay">
         <div class="home-title">
+          <i class="fa-solid fa-user fa-2xl"></i>
           <h1 class="title">2025 <br> SCHOOL <br> <span class="yellow">ADMISSION <br> SYSTEM</span></h1>
           <button class="learn">Learn more</button>
+        </div>
+      </div>
+      <div class="statistics">
+        <div class="legacy">
+          <h1>Legacy ni icy pangit</h1>
         </div>
       </div>
     </div>
@@ -20,10 +26,10 @@
 
   .home {
     background-image: url('../assets/image/ESSU-campus.jpg');
-    height: 110vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 3rem solid #161b22;
+    border-bottom: 2rem solid #161b22;
   }
   .overlay {
     width: 100%;
@@ -37,6 +43,12 @@
     color: #ecf2f8;
     text-shadow: 6px 10px 5px #000, 3px 3px 5px #000;
   }
+  i {
+    color: yellow;
+    position: relative;
+    bottom: 5rem;
+    left: 71rem;
+  }
   .home-title {
     position: relative;
     left: 9rem;
@@ -47,7 +59,7 @@
   }
   .learn {
     position: relative;
-    top: 1.2rem;
+    top: 1.9rem;
     padding: 0.8rem 3.5rem;
     left: 0.9rem;
     border: none;
@@ -62,5 +74,18 @@
     cursor: pointer;
     background: #d3d6d8;
     color: rgb(8, 162, 8);
+  }
+  .statistics {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: minmax(5rem, auto);
+    background: #161b22;
+    height: 90vh;
+    padding-top: 2.5rem;
+  }
+  .legacy {
+    grid-column: 1 / 6;
+    border: 1px solid white;
+
   }
 </style>
