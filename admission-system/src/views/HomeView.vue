@@ -4,7 +4,6 @@
     <div class="home">
       <div class="overlay">
         <div class="home-title">
-          <i class="fa-solid fa-user fa-2xl"></i>
           <h1 class="title">2025 <br> SCHOOL <br> <span class="yellow">ADMISSION <br> SYSTEM</span></h1>
           <button class="learn">Learn more</button>
         </div>
@@ -42,12 +41,6 @@
     font-size: var(--large);
     color: #ecf2f8;
     text-shadow: 6px 10px 5px #000, 3px 3px 5px #000;
-  }
-  i {
-    color: yellow;
-    position: relative;
-    bottom: 5rem;
-    left: 71rem;
   }
   .home-title {
     position: relative;
