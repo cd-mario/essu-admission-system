@@ -71,13 +71,13 @@
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-auto-rows: minmax(5rem, auto);
-    background: #161b22;
+    background: darkgreen;
     height: 90vh;
     padding-top: 2.5rem;
   }
   .legacy {
     grid-column: 1 / 6;
     border: 1px solid white;
-
+    background: white;
   }
 </style>
