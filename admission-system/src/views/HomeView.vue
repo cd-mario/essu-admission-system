@@ -55,18 +55,17 @@
     top: 1.9rem;
     padding: 0.8rem 3.5rem;
     left: 0.9rem;
-    border: none;
     font-weight: 700;
-    border-radius: 0.6rem;
+    border-radius: 1.4rem;
     text-transform: uppercase;
-    background: #ecf2f8;
-    color: darkgreen;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .learn:hover {
     cursor: pointer;
-    background: #d3d6d8;
-    color: rgb(8, 162, 8);
+    border: 3px solid white;
   }
   .statistics {
     display: grid;
