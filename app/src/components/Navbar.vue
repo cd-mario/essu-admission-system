@@ -49,7 +49,7 @@ a {
 }
 .router-link-exact-active{
     color: white;
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: underline;
 }
 .router-link-exact-active:hover {
