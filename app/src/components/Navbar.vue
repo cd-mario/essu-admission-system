@@ -23,6 +23,9 @@
                 <li class="nav-item active">
                   <RouterLink :to="{ name: 'Login'}" class="nav-link login">Login</RouterLink>
                 </li>
+                <li class="title">
+                  essu admission system
+                </li>
               </ul>
             </div>
           </nav>
@@ -31,25 +34,26 @@
 
 <style scoped>
 nav{
-    background-color: #4B6043;
+  background: #9dc15a;
+  background: -webkit-linear-gradient(45deg, #9dc15a 0%, #4b6043 100%);
+  background: linear-gradient(45deg, #9dc15a 0%, #4b6043 100%);
     padding: 0.5rem 2rem;
 }
-a {
+a, .title {
     color: white;
     border-radius: 0.4rem;
     text-transform: uppercase;
+    font-weight: 700;
 }
-.nav-link {
+.nav-link, .title {
     margin-left: 3rem;
     padding: 0.4em 0.7rem;
 }
 .nav-link:hover {
     background: rgba(255, 255, 255, 0.6);
-    font-weight: 700;
 }
 .router-link-exact-active{
     color: white;
-    font-weight: 500;
     text-decoration: underline;
 }
 .router-link-exact-active:hover {
@@ -60,5 +64,9 @@ a {
 }
 .login {
     border: 1px solid white;
+}
+.title {
+  position: relative;
+  left: 30rem;
 }
 </style>
