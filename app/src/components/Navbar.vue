@@ -61,6 +61,19 @@ a {
 }
 .header h1 {
   display: inline-block;
-  
+  text-transform: uppercase;
+  margin-left: 49rem;
+  font-size: 1rem;
+  color: #014422;
+  font-weight: 500;
+  background: #ffee8c;
+  padding: 1rem 0.9rem;
+  border-radius: 0.2rem;
+  transition: transform 0.3s ease-in-out;
+}
+.header h1:hover {
+  font-weight: 700;
+  cursor: pointer;
+  transform: scale(1.1); 
 }
 </style>
