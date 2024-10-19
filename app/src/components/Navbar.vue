@@ -1,16 +1,12 @@
 
 <template>
     <div>
+      <div class="header">
+        <img src="../assets/essu.png"  alt="" width="350">
+        <h1>admission system</h1>
+      </div>
         <nav class="navbar navbar-expand-lg navbar-light">
-            <RouterLink :to="{ name: 'Home'}">
-                <img src="../assets/logo.png" alt="logo" width="75">
-            </RouterLink>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav d-flex">
+              <ul class="navbar-nav" style="">
                 <li class="nav-item">
                   <RouterLink :to="{ name: 'Home'}" class="nav-link">Home</RouterLink>
                 </li>
@@ -21,55 +17,50 @@
                   <RouterLink :to="{ name: 'Form'}" class="nav-link">Form</RouterLink>
                 </li>
                 <li class="nav-item active">
-                  <RouterLink :to="{ name: 'Login'}" class="nav-link login">Login</RouterLink>
-                </li>
-                <li class="title">
-                  <span class="yellow">essu</span> <span class="green">admission system</span>
+                  <RouterLink :to="{ name: 'Login'}" class="nav-link">Login</RouterLink>
                 </li>
               </ul>
-            </div>
           </nav>
     </div>
-</template>
+</template> 
 
 <style scoped>
 nav{
-
   background: #c1a620;
   background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
   background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
-    padding: 0.5rem 2rem;
+    padding: 1.3rem 2rem;
 }
-a, .title {
+a {
     color: white;
-    border-radius: 0.4rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 400;
 }
-.nav-link, .title {
+.nav-link {
     margin-left: 3rem;
-    padding: 0.4em 0.7rem;
+    padding: 0.2em 0.7rem;
+    border-bottom: 3px solid transparent;
 }
 .nav-link:hover {
-    background: rgba(255, 255, 255, 0.6);
+  color: #014422;
+  border-bottom: 3px solid #ffd300;
 }
 .router-link-exact-active{
-    color: white;
-    text-decoration: underline;
+    color: #014422;
+    border-bottom: 3px solid #ffd300;
 }
 .router-link-exact-active:hover {
-    background: rgba(255, 255, 255, 0.6);
-    font-weight: 600;
-    color: black;
+    color: #014422;
 
-}
-.login {
-    border: 1px solid white;
 }
 .title {
   position: relative;
   left: 30rem;
   color: #ffd300;
   font-weight: 900;
+}
+.header h1 {
+  display: inline-block;
+  
 }
 </style>
