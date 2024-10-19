@@ -24,7 +24,7 @@
                   <RouterLink :to="{ name: 'Login'}" class="nav-link login">Login</RouterLink>
                 </li>
                 <li class="title">
-                  essu admission system
+                  <span class="yellow">essu</span> <span class="green">admission system</span>
                 </li>
               </ul>
             </div>
@@ -34,9 +34,10 @@
 
 <style scoped>
 nav{
-  background: #9dc15a;
-  background: -webkit-linear-gradient(45deg, #9dc15a 0%, #4b6043 100%);
-  background: linear-gradient(45deg, #9dc15a 0%, #4b6043 100%);
+
+  background: #c1a620;
+  background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
+  background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
     padding: 0.5rem 2rem;
 }
 a, .title {
@@ -68,5 +69,7 @@ a, .title {
 .title {
   position: relative;
   left: 30rem;
+  color: #ffd300;
+  font-weight: 900;
 }
 </style>
