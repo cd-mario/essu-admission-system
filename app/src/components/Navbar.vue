@@ -1,22 +1,29 @@
 
 <template>
     <div>
+      <!-- Header -->
       <div class="header">
+        <!-- Logo -->
         <img src="../assets/essu.png"  alt="" width="350">
         <h1>admission system</h1>
       </div>
+        <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
               <ul class="navbar-nav" style="">
                 <li class="nav-item">
+                  <!-- Home -->
                   <RouterLink :to="{ name: 'Home'}" class="nav-link">Home</RouterLink>
                 </li>
                 <li class="nav-item active">
+                  <!-- Procedure -->
                   <RouterLink :to="{ name: 'Procedure'}" class="nav-link">Procedure</RouterLink>
                 </li>
                 <li class="nav-item active">
+                  <!-- Form -->
                   <RouterLink :to="{ name: 'Form'}" class="nav-link">Form</RouterLink>
                 </li>
                 <li class="nav-item active">
+                  <!-- Login -->
                   <RouterLink :to="{ name: 'Login'}" class="nav-link">Login</RouterLink>
                 </li>
               </ul>
@@ -25,7 +32,7 @@
 </template> 
 
 <style scoped>
-nav{
+nav {
   background: #c1a620;
   background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
   background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
