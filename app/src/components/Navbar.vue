@@ -20,7 +20,7 @@
                 </li>
                 <li class="nav-item active">
                   <!-- Form -->
-                  <RouterLink :to="{ name: 'Form'}" class="nav-link">Form</RouterLink>
+                  <RouterLink :to="{ name: 'Form'}" class="nav-link">Admission form</RouterLink>
                 </li>
                 <li class="nav-item active">
                   <!-- Login -->
