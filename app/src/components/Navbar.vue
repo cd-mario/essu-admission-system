@@ -9,7 +9,7 @@
       </div>
         <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-              <ul class="navbar-nav" style="">
+              <ul class="navbar-nav d-flex justify-content-center">
                 <li class="nav-item">
                   <!-- Home -->
                   <RouterLink :to="{ name: 'Home'}" class="nav-link">Home</RouterLink>
@@ -36,7 +36,7 @@ nav {
   background: #c1a620;
   background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
   background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
-    padding: 1.3rem 2rem;
+  padding: 1.3rem 2rem;
 }
 a {
     color: white;
@@ -49,16 +49,16 @@ a {
     border-bottom: 3px solid transparent;
 }
 .nav-link:hover {
-  color: #014422;
-  border-bottom: 3px solid #ffd300;
+  color: #f1e9b8;
+  border-bottom: 3px solid #014422;
 }
 .router-link-exact-active{
-    color: #014422;
-    border-bottom: 3px solid #ffd300;
+    color: #f1e9b8;
+    border-bottom: 3px solid #014422;
+    font-weight: 500;
 }
 .router-link-exact-active:hover {
-    color: #014422;
-
+    color: #f1e9b8;
 }
 .title {
   position: relative;
