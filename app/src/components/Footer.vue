@@ -101,9 +101,13 @@
     footer {
         padding: 0.6rem 7rem;
         height: 20vh;
+        background: #c1a620;
+        background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
+        background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
     }
     small {
         font-size: 0.7rem;
+        color: #eee;
     }
     .icons {
         position: relative;
@@ -128,7 +132,7 @@ ul {
     top: 100%;
     right: 110%;
     transform: translateY(200%);
-    color: #fff;
+    color: white;
     padding: 6px 10px;
     border-radius: 5px;
     opacity: 0;
@@ -150,8 +154,8 @@ ul {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: #4d4d4d;
-    background-color: #fff;
+    color: #eee;
+    background-color: transparent;
     transition: all 0.3s ease-in-out;
   }
   .example-2 .icon-content a:hover {
