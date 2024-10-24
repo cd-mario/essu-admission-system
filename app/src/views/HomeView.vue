@@ -25,14 +25,16 @@
     color: #F0f0E1;
   }
   .wrapper {
+    width: 100%;
+    height: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(3rem, auto);
     padding: 4.5rem 4rem;
   }
   .title {
     padding: 1rem;
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
 
   }
   .title h1 {
@@ -42,7 +44,7 @@
   }
   .title h5 {
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 400;
   }
   .title small {
     font-weight: 300;
