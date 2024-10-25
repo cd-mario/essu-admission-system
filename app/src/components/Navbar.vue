@@ -4,7 +4,10 @@
       <!-- Header -->
       <div class="header py-3">
         <!-- Logo -->
-        <img src="../assets/essu.png"  alt="" width="350">
+        <div class="logo">
+          <img src="../assets/essu.png"  alt="essu logo" width="350">
+          <img src="../assets/bp.png" alt="Bagong Pilipinas logo" width="75">
+        </div>
         <h1>admission system</h1>
       </div>
         <!-- Navigation bar -->
@@ -67,9 +70,10 @@ a {
   font-weight: 900;
 }
 .header h1 {
-  display: inline-block;
+  position: absolute;
+  top: 2.5rem;
+  left: 71rem;
   text-transform: uppercase;
-  margin-left: 49rem;
   font-size: 1rem;
   color: #014422;
   font-weight: 500;
@@ -82,5 +86,12 @@ a {
   font-weight: 700;
   cursor: pointer;
   transform: scale(1.1); 
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header .logo img{
+  margin-right: 2rem;
 }
 </style>
