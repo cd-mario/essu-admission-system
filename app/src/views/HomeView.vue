@@ -30,7 +30,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: minmax(3rem, auto);
-    padding: 4.5rem 4rem;
+    padding: 4.5rem 6rem;
   }
   .title {
     padding: 1rem;
