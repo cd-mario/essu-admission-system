@@ -17,7 +17,19 @@
           <hr>
           <ol>
             <li>
-              
+              Register online
+            </li>
+            <li>
+              Login account
+            </li>
+            <li>
+              Apply online
+            </li>
+            <li>
+              Validation of credentials
+            </li>
+            <li>
+              Rejection/Approval of application
             </li>
           </ol>
         </div>
@@ -91,8 +103,11 @@
     padding: 2rem;
   }
   .features h2 {
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 2rem;
     text-align: center;
+  }
+  .features li {
+    margin-top: 1rem;
   }
 </style>
