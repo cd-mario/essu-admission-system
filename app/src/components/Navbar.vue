@@ -2,7 +2,7 @@
 <template>
     <div>
       <!-- Header -->
-      <div class="header">
+      <div class="header py-3">
         <!-- Logo -->
         <img src="../assets/essu.png"  alt="" width="350">
         <h1>admission system</h1>
