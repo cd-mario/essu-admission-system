@@ -13,8 +13,13 @@
             <small>*Our admission process is designed to be <strong>simple</strong> and <strong>efficient</strong>, ensuring that your journey with us begins smoothly.</small>
         </div>
         <div class="features">
-          <h2>Features</h2>
+          <h2>Admission Process</h2>
           <hr>
+          <ol>
+            <li>
+              
+            </li>
+          </ol>
         </div>
       </div>
     </div>
@@ -88,5 +93,6 @@
   .features h2 {
     font-weight: 400;
     font-size: 1.5rem;
+    text-align: center;
   }
 </style>
