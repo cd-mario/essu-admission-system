@@ -53,11 +53,11 @@ a {
 }
 .nav-link:hover {
   color: #f1e9b8;
-  border-bottom: 3px solid #014422;
+  border-bottom: 2px solid #ffee8c;
 }
 .router-link-exact-active{
     color: #f1e9b8;
-    border-bottom: 3px solid #014422;
+    border-bottom: 2px solid #ffee8c;
     font-weight: 500;
 }
 .router-link-exact-active:hover {
