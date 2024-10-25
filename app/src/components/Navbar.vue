@@ -36,9 +36,9 @@
 
 <style scoped>
 nav {
-  background: #c1a620;
-  background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
-  background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
+  background: #4b6043;
+  background: -webkit-linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
+  background: linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
   padding: 1.3rem 2rem;
 }
 a {
