@@ -121,7 +121,7 @@
     left: 0.9rem;
   }
   .features li::marker {
-    color: #9ac184;
+    color: #ffee8c;
     font-size: 1.4rem;
     font-weight: 700;
   }
