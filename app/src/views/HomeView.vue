@@ -110,6 +110,7 @@
     font-weight: 300;
     font-size: 2rem;
     text-align: center;
+    color: #ffee8c;
   }
   .features li {
     margin-top: 1.5rem;
