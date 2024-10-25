@@ -17,23 +17,23 @@
           <hr>
           <ol>
             <li>
-              Register online
+              <span>Register online</span>
             </li>
             <hr>
             <li>
-              Login account
+              <span>Login account</span>
             </li>
             <hr>
             <li>
-              Apply online
+              <span>Apply online</span>
             </li>
             <hr>
             <li>
-              Validation of credentials
+              <span>Validation of credentials</span>
             </li>
             <hr>
             <li>
-              Rejection/Approval of application
+              <span>Rejection/Approval of application</span>
             </li>
           </ol>
         </div>
@@ -101,7 +101,7 @@
     grid-column: 4 / 5;
     grid-row: 1;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    margin: 6rem 3rem 7rem 2rem;
+    margin: 6rem 3rem 5rem 2rem;
     width: 25rem;
     border-radius: 1rem;
     padding: 2rem;
@@ -115,5 +115,14 @@
     margin-top: 1.5rem;
     font-weight: 200;
     color: white;
+  }
+  .features li span {
+    position: relative;
+    left: 0.9rem;
+  }
+  .features li::marker {
+    color: #9ac184;
+    font-size: 1.4rem;
+    font-weight: 700;
   }
 </style>
