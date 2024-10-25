@@ -109,6 +109,9 @@
         font-size: 0.7rem;
         color: #eee;
     }
+    hr {
+        color: white;
+    }
     .icons {
         position: relative;
         bottom: 1.9rem;
