@@ -6,7 +6,7 @@
         <!-- Logo -->
         <div class="logo">
           <img src="../assets/essu.png"  alt="essu logo" width="350">
-          <img src="../assets/bp.png" alt="Bagong Pilipinas logo" width="75">
+          <img src="../assets/bp.png" alt="Bagong Pilipinas logo" width="70">
         </div>
         <h1>admission system</h1>
       </div>
@@ -92,6 +92,6 @@ a {
   flex-direction: column;
 }
 .header .logo img{
-  margin-right: 2rem;
+  margin-right: 1.5rem;
 }
 </style>
