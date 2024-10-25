@@ -19,15 +19,19 @@
             <li>
               Register online
             </li>
+            <hr>
             <li>
               Login account
             </li>
+            <hr>
             <li>
               Apply online
             </li>
+            <hr>
             <li>
               Validation of credentials
             </li>
+            <hr>
             <li>
               Rejection/Approval of application
             </li>
@@ -97,7 +101,7 @@
     grid-column: 4 / 5;
     grid-row: 1;
     border: 1px solid rgba(255, 255, 255, 0.4);
-    margin: 6rem 3rem 6rem 2rem;
+    margin: 6rem 3rem 7rem 2rem;
     width: 25rem;
     border-radius: 1rem;
     padding: 2rem;
@@ -108,6 +112,8 @@
     text-align: center;
   }
   .features li {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    font-weight: 200;
+    color: white;
   }
 </style>
