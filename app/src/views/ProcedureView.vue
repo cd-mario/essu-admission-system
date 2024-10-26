@@ -22,13 +22,13 @@
       <div class="card">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"> 
-            <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
+            <span class="num-list">1.</span> Duly certified (by Principal or his / her authorized representative) Xerox copy of High School Report Card / Form 138 showing at least up to 2nd grading period.
           </li>
           <li class="list-group-item">
-            <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
+            <span class="num-list">2.</span> GPA of 80% or better with no grades lower than 80 in English, Math, Science.
           </li>
           <li class="list-group-item">
-            <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
+            <span class="num-list">3.</span> 3 pieces of recent 2x2 clear close-up ID picture.
           </li>
         </ul>
       </div>
@@ -50,7 +50,7 @@
     padding-bottom: 1rem;
   }
   .standards {
-    margin: 3.4rem auto;
+    margin: 3.4rem auto 0.5rem auto;
     text-align: left;
     width: 44rem;
   }
@@ -78,5 +78,8 @@
   .list-group-item {
     padding: 2rem 2rem 2rem 4rem;
     line-height: 2rem;
+  }
+  ul li:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
   }
 </style>
