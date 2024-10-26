@@ -10,8 +10,12 @@
           <li class="list-group-item"> 
             <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
           </li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">
+            <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
+          </li>
         </ul>
       </div>
     </div>
@@ -43,6 +47,7 @@
   .card {
     width: 100%;
     margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   }
   .card .list {
     position: relative;
@@ -53,7 +58,9 @@
   .num-list {
     position: absolute;
     left: 1.2rem;
-    top: 3rem;
+    top: auto;
+    color:#014422;
+    font-weight: 600;
   }
   .list-group-item {
     padding: 2rem 2rem 2rem 4rem;
