@@ -2,6 +2,7 @@
   <div class="container p-5">
     <h1 class="title">Admission Procedure</h1>
     <div class="standards">
+      <RouterLink :to="{ name: 'Home' }" class="back"><button type="button" class="btn btn-light">Back</button></RouterLink>
       <h3 class="title-2">Online Admission Process</h3>
       <div class="card">
         <ul class="list-group list-group-flush">
@@ -28,7 +29,7 @@
       <div class="card">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"> 
-            <span class="num-list">1.</span> The University accepts apAdplications from all high school graduates who meet the necessary qualifications and GPA requirements.
+            <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
           </li>
           <li class="list-group-item">
             <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
@@ -104,4 +105,15 @@
   ul li:nth-child(even) {
     background-color: rgba(0, 0, 0, 0.1);
   }
+  a.back {
+    position: absolute;
+    left: 17.8rem;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    top: 17rem;
+    color: black;
+    font-weight: 400;
+
+  }
+
 </style>
