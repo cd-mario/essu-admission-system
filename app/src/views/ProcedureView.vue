@@ -1,10 +1,8 @@
 <template>
   <div class="container p-5">
     <h1 class="title">Admission Procedure</h1>
-
-    
     <div class="standards">
-      <h3>Entrance standards</h3>
+      <h3 class="title-2">Entrance standards</h3>
       <div class="card">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"> 
@@ -40,7 +38,7 @@
     text-align: left;
     width: 44rem;
   }
-  .standards h3 {
+  .title-2 {
     font-size: 1.3rem;
     color: #014422;
   }
