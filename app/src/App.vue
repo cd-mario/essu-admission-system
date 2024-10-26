@@ -13,5 +13,7 @@ import Footer from './components/Footer.vue'
 </template>
 
 <style scoped>
-  
+  .wrapper {
+    padding-bottom: 20vh;
+  }
 </style>
