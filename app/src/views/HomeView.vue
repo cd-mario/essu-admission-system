@@ -13,7 +13,9 @@
             <small>*Our admission process is designed to be <strong>simple</strong> and <strong>efficient</strong>, ensuring that your journey with us begins smoothly.</small>
         </div>
         <div class="features">
-          <h2>Admission Process</h2>
+          <RouterLink :to="{ name: 'Procedure'}" class="nav-link">
+            <h2>Admission Process</h2>
+          </RouterLink>
           <hr>
           <ol>
             <li>
@@ -115,6 +117,10 @@
     font-size: 2rem;
     text-align: center;
     color: #ffee8c;
+    padding-bottom: 0;
+  }
+  .features h2:hover {
+    font-weight: 400;
   }
   .features li {
     margin-top: 1.5rem;
@@ -129,5 +135,8 @@
     color: #ffee8c;
     font-size: 1.4rem;
     font-weight: 700;
+  }
+  a:hover {
+    cursor: pointer;
   }
 </style>
