@@ -12,7 +12,13 @@
             <span class="num-list">2.</span> Once registered, log in to your account using the credentials provided during registration. This account will serve as the primary platform to monitor your application’s status and complete further steps.
           </li>
           <li class="list-group-item">
-            <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
+            <span class="num-list">3.</span> Complete and submit the online application form, providing all necessary personal, academic, and supporting details. Please ensure all information is accurate, as this is crucial for processing your application.
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">4.</span> Upon submission, our admissions team will thoroughly review and validate your credentials and information. This step is essential to ensure all criteria and prerequisites for admission are met.
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">5.</span> Following the validation process, applicants will be notified of the outcome. Based on the evaluation, applications will either be approved or declined. Approved applicants will receive further instructions regarding the next steps in the enrollment process.
           </li>
         </ul>
       </div>
@@ -22,7 +28,7 @@
       <div class="card">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"> 
-            <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
+            <span class="num-list">1.</span> The University accepts apAdplications from all high school graduates who meet the necessary qualifications and GPA requirements.
           </li>
           <li class="list-group-item">
             <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
