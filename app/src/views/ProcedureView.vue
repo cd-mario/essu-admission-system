@@ -34,7 +34,7 @@
       </div>
     </div>
     <div class="standards">
-      <h3 class="title-2">Admission Requirements</h3>
+      <h3 class="title-2">Enrollment Requirements</h3>
       <div class="card">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"> 
