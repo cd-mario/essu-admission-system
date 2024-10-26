@@ -8,7 +8,9 @@
             <h5>In <span class="highlight px-1">Eastern Samar State University</span>, we offer innumerable opportunities for aspiring students.</h5>
             <div class="buttons">
               <button type="button" class="btn btn-outline-success">Enroll</button>
-              <button type="button" class="btn btn-primary">Learn more</button>
+              <RouterLink :to="{ name: 'Procedure'}">
+                <button type="button" class="btn btn-primary">Learn more</button>
+              </RouterLink>
             </div>
             <small>*Our admission process is designed to be <strong>simple</strong> and <strong>efficient</strong>, ensuring that your journey with us begins smoothly.</small>
         </div>
