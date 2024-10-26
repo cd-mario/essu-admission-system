@@ -2,6 +2,22 @@
   <div class="container p-5">
     <h1 class="title">Admission Procedure</h1>
     <div class="standards">
+      <h3 class="title-2">Admission Process</h3>
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> 
+            <span class="num-list">1.</span> 
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="standards">
       <h3 class="title-2">Entrance standards</h3>
       <div class="card">
         <ul class="list-group list-group-flush">
