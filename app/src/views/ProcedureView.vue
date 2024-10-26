@@ -47,7 +47,7 @@
   .card {
     width: 100%;
     margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }
   .card .list {
     position: relative;
