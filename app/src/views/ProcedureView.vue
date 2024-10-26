@@ -17,6 +17,22 @@
         </ul>
       </div>
     </div>
+    <div class="standards">
+      <h3 class="title-2">Admission Requirements</h3>
+      <div class="card">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"> 
+            <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
+          </li>
+          <li class="list-group-item">
+            <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -51,7 +67,6 @@
     position: relative;
     left: 2rem;
     padding: 1rem;
-    border-bottom: 1px solid rgba;
   }
   .num-list {
     position: absolute;
