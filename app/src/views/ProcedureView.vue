@@ -2,14 +2,14 @@
   <div class="container p-5">
     <h1 class="title">Admission Procedure</h1>
     <div class="standards">
-      <h3 class="title-2">Admission Process</h3>
+      <h3 class="title-2">Online Admission Process</h3>
       <div class="card">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"> 
-            <span class="num-list">1.</span> 
+            <span class="num-list">1.</span> Applicants must complete the initial registration form to create a unique user account for future access.
           </li>
           <li class="list-group-item">
-            <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
+            <span class="num-list">2.</span> Once registered, log in to your account using the credentials provided during registration. This account will serve as the primary platform to monitor your application’s status and complete further steps.
           </li>
           <li class="list-group-item">
             <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
