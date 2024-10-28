@@ -40,6 +40,7 @@ nav {
   background: -webkit-linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
   background: linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
   padding: 1.3rem 2rem;
+  border-bottom: 3px solid #ffee8c;
 }
 a {
     color: white;
