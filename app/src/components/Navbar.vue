@@ -12,14 +12,14 @@
       </div>
         <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg navbar-light">
-              <ul class="navbar-nav d-flex justify-content-center">
+              <ul class="navbar-nav">
                 <li class="nav-item">
                   <!-- Home -->
                   <RouterLink :to="{ name: 'Home'}" class="nav-link">Home</RouterLink>
                 </li>
                 <li class="nav-item active">
                   <!-- Procedure -->
-                  <RouterLink :to="{ name: 'Procedure'}" class="nav-link">Procedure</RouterLink>
+                  <RouterLink :to="{ name: 'Procedure'}" class="nav-link">Admission Procedure</RouterLink>
                 </li>
                 <li class="nav-item active">
                   <!-- Form -->
@@ -39,8 +39,8 @@ nav {
   background: #4b6043;
   background: -webkit-linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
   background: linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
-  padding: 1.3rem 2rem;
-  border-bottom: 3px solid #ffee8c;
+  padding: 1.6rem 2rem;
+  border-bottom: 2px solid #ffee8c;
 }
 a {
     color: white;
@@ -48,7 +48,7 @@ a {
     font-weight: 400;
 }
 .nav-link {
-    margin-left: 3rem;
+    margin-left: 3.6rem;
     padding: 0.2em 0.7rem;
     border-bottom: 3px solid transparent;
 }
@@ -94,5 +94,8 @@ a {
 }
 .header .logo img{
   margin-right: 1.5rem;
+}
+.navbar-nav {
+  margin-left: 1rem;
 }
 </style>
