@@ -9,7 +9,7 @@
             <div class="buttons">
               <button type="button" class="btn btn-outline-success">Enroll</button>
               <RouterLink :to="{ name: 'Procedure'}">
-                <button type="button" class="btn btn-primary">Learn more</button>
+                <button type="button" class="btn btn-info">Learn more</button>
               </RouterLink>
             </div>
             <small>*Our admission process is designed to be <strong>simple</strong> and <strong>efficient</strong>, ensuring that your journey with us begins smoothly.</small>
@@ -93,7 +93,7 @@
   .buttons button {
     padding: 0.7rem 3rem;
   }
-  .buttons .btn-primary {
+  .buttons .btn-info {
     margin-left: 1rem;
   }
   .overlay {
