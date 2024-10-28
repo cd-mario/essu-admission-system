@@ -107,7 +107,7 @@
   }
   a.back {
     position: absolute;
-    left: 17.8rem;
+    left: 15.8rem;
     text-decoration: underline;
     font-size: 1.2rem;
     top: 17rem;
