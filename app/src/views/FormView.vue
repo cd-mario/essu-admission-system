@@ -18,6 +18,7 @@
     .wrapper {
         height: 100vh;
         padding: 3rem;
+
     }
     form {
         width: 80%;
@@ -25,5 +26,8 @@
     }
     .title {
         text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
     }
 </style>
