@@ -1,7 +1,7 @@
 <template>
     <div class="wrapper">
-        <h1 class="title">ESSU Admission Form</h1>
         <form>
+            <h1 class="title">ESSU Admission Form</h1>
             <div class="form-group">
               <label for="f_name">First Name: </label>
               <input type="text" class="form-control" id="f_name" placeholder="First Name">
@@ -21,13 +21,21 @@
 
     }
     form {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+
     }
     .title {
         text-align: center;
         text-transform: uppercase;
         font-size: 2rem;
         font-weight: 700;
+        margin-bottom: 2rem;
+        background: #4b6043;
+        background: -webkit-linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
+        background: linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
+        padding: 1rem;
+        color: #eee;
     }
 </style>
