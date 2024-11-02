@@ -82,7 +82,7 @@
     top: 1rem;
   }
   .highlight {
-    background: #014422;
+    background: #4b6043;
   }
   .yellow {
     color: #014422;
