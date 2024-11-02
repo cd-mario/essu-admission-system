@@ -41,6 +41,7 @@
         border-radius: 0.9rem;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         font-size: 1rem;
+        background: #fffefe;
     }
     .title {
         text-align: center;
@@ -93,11 +94,12 @@
         border-radius: 0.4rem;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         margin-bottom: 0.9rem;
+        background: white;
     }
     .identifier {
         font-weight: 300;
-        padding: 0.1rem 0.5rem;
         border-radius: 0.3rem;
         font-size: 1.8rem;
+        margin: 0.1rem;
     }
 </style>

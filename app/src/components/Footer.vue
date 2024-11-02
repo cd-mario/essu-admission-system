@@ -105,7 +105,7 @@
         background: -webkit-linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
         background: linear-gradient(45deg, #c1a620 0%, #4b6043 100%);
         position: absolute;
-        bottom: auto;
+        bottom: 100;
         width: 100%;
     }
     small {
