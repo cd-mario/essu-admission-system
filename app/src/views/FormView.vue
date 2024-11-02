@@ -4,38 +4,55 @@
             <h1 class="title">ESSU Admission Form</h1>
             <p class="note"><strong>Note</strong>: You must <span class="underline">login</span> to access admission form.</p>
             <div class="input-wrapper">
-                <h5 class="identifier">Name</h5>
-                <div class="form-group-name">
-                    <div class="form-group">
-                      <label for="f_name">First Name: </label>
-                      <input type="text" class="form-control" id="f_name" placeholder="First Name" required>
-                    </div>
-                    <div class="form-group">
-                      <label for="m_name">Middle Name: </label>
-                      <input type="text" class="form-control" id="m_name" placeholder="Middle Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="l_name">Last Name: </label>
-                      <input type="text" class="form-control" id="l_name" placeholder="Last Name" required>
+                <div class="name-section">
+                    <h5 class="identifier">Name</h5>
+                    <div class="form-group-name">
+                        <div class="form-group">
+                          <label for="f_name">First Name: </label>
+                          <input type="text" class="form-control" id="f_name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="m_name">Middle Name: </label>
+                          <input type="text" class="form-control" id="m_name" placeholder="Middle Name">
+                        </div>
+                        <div class="form-group">
+                          <label for="l_name">Last Name: </label>
+                          <input type="text" class="form-control" id="l_name" placeholder="Last Name" required>
+                        </div>
                     </div>
                 </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="contact-section">
+                    <h5 class="identifier">Contact</h5>
+                    <div class="form-group-name">
+                        <div class="form-group">
+                          <label for="f_name">First Name: </label>
+                          <input type="text" class="form-control" id="f_name" placeholder="First Name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="m_name">Middle Name: </label>
+                          <input type="text" class="form-control" id="m_name" placeholder="Middle Name">
+                        </div>
+                        <div class="form-group">
+                          <label for="l_name">Last Name: </label>
+                          <input type="text" class="form-control" id="l_name" placeholder="Last Name" required>
+                        </div>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
             </div>
+            <!-- <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button> -->
           </form>
     </div>
 </template>
 <style scoped>
     .wrapper {
         height: 100vh;
-        padding: 3rem;
-
+        padding: 2rem;
     }
     form {
-        width: 60%;
         margin: 0 auto;
         border: 1px solid rgba(0, 0, 0, 0.2);
         border-radius: 0.9rem;
@@ -57,6 +74,10 @@
     }
     .input-wrapper {
         padding: 1rem 3rem;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-auto-rows: minmax(20rem, auto);
+        gap: 1rem;
     }
     .note {
         position: relative;
@@ -65,7 +86,7 @@
         padding: 0.5rem 0.6rem;
         border-left: 4px solid #f01e2c;
         background: rgba(0, 0, 0, 0.1);
-        width: 30rem;
+        width: 60%;
         font-size: 0.9rem;
     }
     .underline {
@@ -90,7 +111,7 @@
     }
     .form-group-name {
         border: 1px solid rgba(0, 0, 0, 0.2);
-        padding: 1rem 2rem;
+        padding: 1rem;
         border-radius: 0.4rem;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         margin-bottom: 0.9rem;
@@ -101,5 +122,17 @@
         border-radius: 0.3rem;
         font-size: 1.8rem;
         margin: 0.1rem;
+    }
+    .btn {
+        position: relative;
+        left: 38.5rem;
+        padding: 0.6rem 1.5rem;
+        bottom: 1rem;
+    }
+    .name-section {
+        grid-column: 1 / 4;
+    }
+    .contact-section {
+        grid-column: 4 / 7;
     }
 </style>
