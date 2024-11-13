@@ -2,8 +2,8 @@
     <!-- need to remove navbar and footer in login page -->
     <div class="container">
         <div id="grid">
-            <div class="image">
-            </div>
+                <div class="image">
+                </div>
             <div class="login">
                 this is login
             </div>
@@ -22,15 +22,17 @@
     margin-top: 4rem;
     height: 85%;
     border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .image {
-    grid-column: 1 / 6;
+    grid-column: 1 / 5;
     background-image: url('../assets/images/login-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
     border-top-left-radius: 2rem;
     border-bottom-left-radius: 2rem;
+
 }
 .login {
     grid-column: 6 / 11;
