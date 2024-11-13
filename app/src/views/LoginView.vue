@@ -22,6 +22,7 @@
     grid-auto-rows: minmax(100px, auto);
     margin-top: 4rem;
     height: 85%;
+    border-radius: 2rem;
 }
 .image, .login {
     border: 1px solid black;
