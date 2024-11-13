@@ -20,6 +20,16 @@
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    margin: 5rem 2rem;
+    margin-top: 4rem;
+    height: 85%;
+}
+.image, .login {
+    border: 1px solid black;
+}
+.image {
+    grid-column: 1 / 6;
+}
+.login {
+    grid-column: 6 / 11;
 }
 </style>
