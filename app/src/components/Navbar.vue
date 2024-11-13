@@ -5,8 +5,8 @@
       <div class="header py-3">
         <!-- Logo -->
         <div class="logo">
-          <img src="../assets/essu.png"  alt="essu logo" width="350">
-          <img src="../assets/bp.png" alt="Bagong Pilipinas logo" width="70">
+          <img src="../assets/images/essu.png"  alt="essu logo" width="350">
+          <img src="../assets/images/bp.png" alt="Bagong Pilipinas logo" width="70">
         </div>
         <h1>admission system</h1>
       </div>

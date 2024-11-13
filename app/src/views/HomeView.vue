@@ -48,7 +48,7 @@
 
 <style scoped>
   .superwrapper {
-    background-image: url('../assets/ESSU-campus.jpg');
+    background-image: url('../assets/images/ESSU-campus.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: #F0f0E1;
