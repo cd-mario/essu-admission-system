@@ -39,7 +39,7 @@
 }
 .image {
     grid-column: 1 / 5;
-    background-image: url('../assets/images/login-bg.jpg');
+    background-image: url('../assets/images/register-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -53,7 +53,7 @@
 }
 .login-title {
     color: white;
-    background: #f8d731;
+    background: #7ab963;
     font-weight: 300;
     font-size: 1.4rem;
     text-align: center;
@@ -69,7 +69,7 @@
     text-align: center;
 }
 form h2 {
-    color: #f8d731;
+    color: #7ab963;
     font-size: 1.3rem;
 
 }
