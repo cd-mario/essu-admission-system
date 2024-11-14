@@ -55,7 +55,7 @@
 }
 .login-title {
     color: white;
-    background: #7ab963;
+    background: #a2d091;
     font-weight: 300;
     font-size: 1.4rem;
     text-align: center;
@@ -71,7 +71,7 @@
     text-align: center;
 }
 form h2 {
-    color: #7ab963;
+    color: #a2d091;
     font-size: 1.3rem;
 
 }
