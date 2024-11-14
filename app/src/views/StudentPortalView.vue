@@ -9,7 +9,7 @@
                 <h1 class="greetings">Good Day, <span class="name">John Doe!</span></h1>
                 <h6 class="status2">Admission Status: <span class="result">Processing</span></h6>
             </div>
-            <div class="personal-info">
+            <div class="personal-info wrapper2">
                 <h4 class="info-title">Personal Information</h4>
                 <ul class="infos">
                     <li>Full Name: <strong>John Doe</strong></li>
@@ -17,6 +17,15 @@
                     <li>Address: <strong class="bold">Barangay 13, Can Avid Eastern Samar</strong></li>
                     <li>Mobile Number: <strong class="bold">09123456789</strong></li>
                     <li>Email: <strong class="bold">johndoe@gmail.com</strong></li>
+                </ul>
+            </div>
+            <div class="acad-info wrapper2">
+                <h4 class="info-title">School Information</h4>
+                <ul class="infos">
+                    <li>Primary: <strong>Can Avid National High School</strong></li>
+                    <li>Secondary: <strong class="bold">Can Avid National High School</strong></li>
+                    <li>Senior High: <strong class="bold">Can Avid National High School</strong></li>
+                    <li>Grade Point Average (GPA): <strong class="bold">90.1</strong></li>
                 </ul>
             </div>
         </div>
@@ -74,11 +83,17 @@ header {
     font-weight: 600;
 }
 .personal-info {
-    padding: 2rem 4rem;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     grid-column: 1 / 13;
     grid-row: 2 / 8;
+}
+.wrapper2 {
     border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2rem 4rem;
+}
+.acad-info {
+    grid-column: 1 / 13;
+    grid-row: 8 / 14;
 }
 .info-title {
     font-weight: 300;
