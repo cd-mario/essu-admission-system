@@ -9,15 +9,14 @@
                     ESSU Admission System
                 </h1>
                 <form action="">
-                    <h2>Login</h2>
-                    <p>Input your details to sign in to you account.</p>
-
+                    <h2>Register</h2>
+                    <p>Create a new account by filling in your details below.</p>
                     <input type="text" placeholder="Enter your name/email" required>
                     <input type="password" placeholder="Enter your password" required>
                     <br>
                     <button type="button" class="btn btn-primary mt-3">Login</button>
                     <br>
-                    <small>Don't have an account? <RouterLink :to="{ name: 'Register'}">Register here.</RouterLink></small>
+                    <small>Already have an account? <RouterLink :to="{ name: 'Login'}">Login here.</RouterLink></small>
                 </form>
             </div>
         </div>
