@@ -11,8 +11,10 @@
                 <form action="">
                     <h2>Register</h2>
                     <p>Create a new account by filling in your details below.</p>
-                    <input type="text" placeholder="Enter your name/email" required>
+                    <input type="text" placeholder="Enter your first name" required>
+                    <input type="text" placeholder="Enter your last name" required>
                     <input type="password" placeholder="Enter your password" required>
+                    <input type="password" placeholder="Confirm password" required>
                     <br>
                     <button type="button" class="btn btn-primary mt-3">Login</button>
                     <br>
@@ -26,13 +28,14 @@
 .container {
     width: 100%;
     height: 100vh;
+    padding-bottom: 2rem;
 }
 #grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    margin-top: 4rem;
-    height: 85%;
+    margin-top: 2rem;
+    height: 98%;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
