@@ -13,6 +13,7 @@
                     <p>Create a new account by filling in your details below.</p>
                     <input type="text" placeholder="Enter your first name" required>
                     <input type="text" placeholder="Enter your last name" required>
+                    <input type="email" placeholder="Enter your email" required>
                     <input type="password" placeholder="Enter your password" required>
                     <input type="password" placeholder="Confirm password" required>
                     <br>
@@ -27,15 +28,15 @@
 <style scoped>
 .container {
     width: 100%;
-    height: 100vh;
-    padding-bottom: 2rem;
+    height: 110vh;
+    padding-bottom: 4rem;
 }
 #grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-auto-rows: minmax(100px, auto);
     margin-top: 2rem;
-    height: 98%;
+    height: 100%;
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -67,7 +68,7 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 } form {
     width: 80%;
-    margin: 3rem auto;
+    margin: 2rem auto;
     text-align: center;
 }
 form h2 {
@@ -78,7 +79,7 @@ form h2 {
 form p {
     font-size: smaller;
     color: grey;
-    margin: 1rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 }
 input {
     height: 2.5rem;
