@@ -15,11 +15,12 @@ header {
     padding: 1rem 3rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .btn-dark {
     position: absolute;
     right: 2rem;
     top: 16rem;
+    padding: 0.6rem 2rem;
 }
 </style>
