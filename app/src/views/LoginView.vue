@@ -17,7 +17,7 @@
                     <br>
                     <button type="button" class="btn btn-primary mt-3">Login</button>
                     <br>
-                    <small>Don't have an account? <a href="#">Register here</a></small>
+                    <small>Don't have an account? <RouterLink :to="{ name: 'Register'}">Register here.</RouterLink></small>
                 </form>
             </div>
         </div>
@@ -92,6 +92,7 @@ input:placeholder-shown {
 }
 button {
     width: 65%;
+    margin-bottom: 1rem;
 }
 small {
     font-size: 0.8rem;
