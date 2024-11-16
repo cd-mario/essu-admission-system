@@ -28,13 +28,21 @@
                     <li>Grade Point Average (GPA): <strong class="bold">90.1</strong></li>
                 </ul>
             </div>
+            <div class="course-info wrapper2">
+                <h4 class="info-title">Admission Information</h4>
+                <ul class="infos">
+                    <li>First Choice: <strong>Bachelor of Science in Information Technology</strong></li>
+                    <li>Second Choice: <strong class="bold">Bachelor of Elementary Education</strong></li>
+                    <li>Admission Status: <strong class="bold">Processing</strong></li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
 <style scoped>
 .wrapper {
     width: 100%;
-    height: 200vh;
+    height: 250vh;
     margin-bottom: 1rem;
 }
 header {
@@ -53,7 +61,7 @@ header {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(3rem, auto);
-    padding: 3rem;
+    padding: 4rem;
     gap: 1rem;
 }
 .status {
@@ -81,6 +89,7 @@ header {
 }
 .name {
     font-weight: 600;
+    color:#014422;
 }
 .personal-info {
     grid-column: 1 / 13;
@@ -94,6 +103,10 @@ header {
 .acad-info {
     grid-column: 1 / 13;
     grid-row: 8 / 14;
+}
+.course-info {
+    grid-column: 1 / 13;
+    grid-row: 14 / 20;
 }
 .info-title {
     font-weight: 300;
