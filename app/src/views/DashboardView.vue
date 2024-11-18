@@ -4,10 +4,10 @@
             <div class="sidebar">
                 <h6 class="title">ESSU ADMIN</h6>
                 <ul class="links">
-                    <li>Dashboard</li>
-                    <li>Applicants</li>
-                    <li>Courses</li>
-                    <li>Enrollment</li>
+                    <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Dashboard</RouterLink></li>
+                    <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Applicants</RouterLink></li>
+                    <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Courses</RouterLink></li>
+                    <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Enrollment</RouterLink></li>
                 </ul>
             </div>
         </div>
@@ -16,7 +16,7 @@
 <style scoped>
 .wrapper {
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 }
 #grid {
     display: grid;
@@ -30,9 +30,8 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .title {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     text-align: center;
-    padding: 2rem 0;
+    padding: 3rem 0;
     font-weight: 300;
     font-size: 1.3rem;
     background: #4b6043;
@@ -41,12 +40,17 @@
     color: white;
 }
 .links {
-    margin-left: 1rem;
+    padding: 0;
     font-size: 1.3rem;
 }
 li {
     list-style: none;
-    margin-top: 3rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1.4rem 0 1.4rem 1.9rem;
+    border-radius: 0.6rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 </style>
