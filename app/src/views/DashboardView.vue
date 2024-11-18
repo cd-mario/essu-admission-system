@@ -3,6 +3,12 @@
         <div id="grid">
             <div class="sidebar">
                 <h6 class="title">ESSU ADMIN</h6>
+                <ul class="links">
+                    <li>Dashboard</li>
+                    <li>Applicants</li>
+                    <li>Courses</li>
+                    <li>Enrollment</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -21,7 +27,7 @@
     grid-column: 1 / 3;
     grid-row: 1 / 4;
     width: 17rem;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -33,5 +39,14 @@
     background: -webkit-linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
     background: linear-gradient(101deg, #4b6043 0%, #9a8933 100%);
     color: white;
+}
+.links {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+li {
+    list-style: none;
+    margin-top: 3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 </style>
