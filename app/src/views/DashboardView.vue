@@ -11,7 +11,7 @@
                 </ul>
             </div>
             <div class="header">
-                
+                <h3 class="header-title">Dashboard</h3>
             </div>
         </div>
     </div>
@@ -60,5 +60,12 @@ li {
 li:hover {
     background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
+}
+.header-title {
+    font-size: 2rem;
+    position: relative;
+    top: 1.5rem;
+    left: 3rem;
+    font-weight: 700;
 }
 </style>
