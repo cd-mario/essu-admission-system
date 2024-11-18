@@ -11,7 +11,7 @@
                 </ul>
             </div>
             <div class="header">
-
+                
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@
 #grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(7.5rem, auto);
+    grid-auto-rows: minmax(5.5rem, auto);
 }
 .sidebar {
     grid-column: 1 / 3;
@@ -39,7 +39,7 @@
 }
 .title {
     text-align: center;
-    padding: 3rem 0;
+    padding: 2rem 0;
     font-weight: 300;
     font-size: 1.3rem;
     background: #4b6043;
@@ -53,7 +53,7 @@
 }
 li {
     list-style: none;
-    padding: 1.4rem 0 1.4rem 1.9rem;
+    padding: 1.2rem 0 1.2rem 1.9rem;
     border-radius: 0.6rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
