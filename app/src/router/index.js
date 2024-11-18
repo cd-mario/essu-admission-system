@@ -42,7 +42,7 @@ const router = createRouter({
     },
     {
       path: '/dhome',
-      name: 'dhome',
+      name: 'Dhome',
       component: DashboardHome
     },
     {

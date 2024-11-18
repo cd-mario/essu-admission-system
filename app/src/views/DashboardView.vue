@@ -4,11 +4,14 @@
             <div class="sidebar">
                 <h6 class="title">ESSU ADMIN</h6>
                 <ul class="links">
-                    <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Dashboard</RouterLink></li>
+                    <li><RouterLink :to="{ name: 'Dhome'}" class="nav-link">Dashboard</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Applicants</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Courses</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Enrollment</RouterLink></li>
                 </ul>
+            </div>
+            <div class="header">
+
             </div>
         </div>
     </div>
@@ -21,12 +24,17 @@
 #grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(15rem, auto);
+    grid-auto-rows: minmax(7.5rem, auto);
 }
 .sidebar {
     grid-column: 1 / 3;
-    grid-row: 1 / 4;
+    grid-row: 1 / 7;
     width: 17rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.header {
+    grid-column: 3 / 13;
+    grid-row: 1 / 2;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .title {
