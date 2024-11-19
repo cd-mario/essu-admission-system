@@ -43,7 +43,7 @@ const router = createRouter({
     {
       path: '/dashboard_applicants',
       name: 'Applicants',
-      component: DashboardHome
+      component: DashboardApplicants
     },
     {
       path: '/procedure',

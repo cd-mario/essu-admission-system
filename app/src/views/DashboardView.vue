@@ -5,7 +5,7 @@
                 <h6 class="title">ESSU ADMIN</h6>
                 <ul class="links">
                     <li><RouterLink :to="{ name: 'Dashboard'}" class="nav-link">Dashboard</RouterLink></li>
-                    <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Applicants</RouterLink></li>
+                    <li><RouterLink :to="{ name: 'Applicants'}" class="nav-link">Applicants</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Courses</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Enrollment</RouterLink></li>
                 </ul>
