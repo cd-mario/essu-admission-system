@@ -53,7 +53,7 @@
 }
 .sidebar {
     grid-column: 1 / 3;
-    grid-row: 1 / 7;
+    grid-row: 1 / 9;
     width: 17rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
