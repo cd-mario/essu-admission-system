@@ -45,6 +45,7 @@
     width: 100%;
     height: 120vh;
     overflow: hidden;
+    background-color: #f8f7f7;
 }
 #grid {
     display: grid;
@@ -56,11 +57,13 @@
     grid-row: 1 / 11;
     width: 17rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
 }
 .header {
     grid-column: 3 / 13;
     grid-row: 1 / 2;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
 }
 .title {
     text-align: center;
