@@ -4,7 +4,7 @@
             <div class="sidebar">
                 <h6 class="title">ESSU ADMIN</h6>
                 <ul class="links">
-                    <li><RouterLink :to="{ name: 'Dhome'}" class="nav-link">Dashboard</RouterLink></li>
+                    <li><RouterLink :to="{ name: 'Dashboard'}" class="nav-link">Dashboard</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Applicants</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Courses</RouterLink></li>
                     <li><RouterLink :to="{ name: 'Home'}" class="nav-link">Enrollment</RouterLink></li>
@@ -55,11 +55,13 @@
 }
 li {
     list-style: none;
+}
+a {
     padding: 1.2rem 0 1.2rem 1.9rem;
     border-radius: 0.6rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-li:hover {
+a:hover {
     background-color: rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
@@ -75,5 +77,8 @@ li:hover {
     top: -1.3rem;
     left: 59rem;
     padding: 0.4rem 1.5rem;
+}
+.router-link-exact-active {
+    background: rgba(0, 0, 0, 0.1);
 }
 </style>
