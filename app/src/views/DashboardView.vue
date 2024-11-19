@@ -14,6 +14,29 @@
                 <h3 class="header-title">Dashboard</h3>
                 <button type="button" class="btn btn-dark">Logout</button>
             </div>
+            <div class="boxes">
+                <div class="applicants-box">
+                    <h6 class="box-title">Applicants</h6>
+                    <div class="box yellow">
+                        <h1 class="number">100</h1>
+                        <p class="total">Total applicants</p>
+                    </div>
+                </div>
+                <div class="applicants-box">
+                    <h6 class="box-title">Rejected</h6>
+                    <div class="box red">
+                        <h1 class="number">100</h1>
+                        <p class="total">Total applicants</p>
+                    </div>
+                </div>
+                <div class="applicants-box">
+                    <h6 class="box-title">Accepted</h6>
+                    <div class="box green">
+                        <h1 class="number">100</h1>
+                        <p class="total">Total applicants</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -80,5 +103,42 @@ a:hover {
 }
 .router-link-exact-active {
     background: rgba(0, 0, 0, 0.1);
+}
+.boxes {
+    grid-column: 3 / 13;
+    grid-row: 2 / 5;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.applicants-box {
+    margin-top: 2rem;
+}
+.box-title {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.box {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    padding: 2rem;
+    width: 18rem;
+    text-align: center;
+    border-radius: 0.6rem;
+}
+.number {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.total {
+    font-size: small;
+}
+.yellow {
+    background-color: #ffdc2e;
+}
+.red {
+    background-color: #f3515c;
+}
+.green {
+    background-color: #52a447;
 }
 </style>
