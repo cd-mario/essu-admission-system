@@ -12,6 +12,7 @@
             </div>
             <div class="header">
                 <h3 class="header-title">Dashboard</h3>
+                <button type="button" class="btn btn-dark">Logout</button>
             </div>
         </div>
     </div>
@@ -20,6 +21,7 @@
 .wrapper {
     width: 100%;
     height: 120vh;
+    overflow-x: hidden;
 }
 #grid {
     display: grid;
@@ -67,5 +69,11 @@ li:hover {
     top: 1.5rem;
     left: 3rem;
     font-weight: 700;
+}
+.btn {
+    position: relative;
+    top: -1.3rem;
+    left: 59rem;
+    padding: 0.4rem 1.5rem;
 }
 </style>
