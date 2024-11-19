@@ -25,14 +25,14 @@
                 <div class="applicants-box">
                     <h6 class="box-title">Rejected</h6>
                     <div class="box red">
-                        <h1 class="number">100</h1>
+                        <h1 class="number">20</h1>
                         <p class="total">Total applicants</p>
                     </div>
                 </div>
                 <div class="applicants-box">
                     <h6 class="box-title">Accepted</h6>
                     <div class="box green">
-                        <h1 class="number">100</h1>
+                        <h1 class="number">80</h1>
                         <p class="total">Total applicants</p>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
 .wrapper {
     width: 100%;
     height: 120vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 #grid {
     display: grid;
@@ -53,7 +53,7 @@
 }
 .sidebar {
     grid-column: 1 / 3;
-    grid-row: 1 / 9;
+    grid-row: 1 / 11;
     width: 17rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -130,15 +130,16 @@ a:hover {
     font-weight: 700;
 }
 .total {
-    font-size: small;
+    font-size: 1rem;
+    font-weight: 300;
 }
 .yellow {
-    background-color: #ffdc2e;
+    background-color: #f8d839;
 }
 .red {
-    background-color: #f3515c;
+    background-color: #f9747d;
 }
 .green {
-    background-color: #52a447;
+    background-color: #5ea954;
 }
 </style>
