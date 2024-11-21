@@ -2,7 +2,10 @@
     <div class="wrapper">
         <h1 class="title">ESSU Admission Form</h1>
         <form action="">
-
+            <div class="name">
+                <h1>Name</h1>
+                
+            </div>
         </form>
     </div>
 </template>
