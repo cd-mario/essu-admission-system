@@ -37,13 +37,64 @@
                     </div>
                 </div>
             </div>
+            <div class="tables">
+                <h6 class="box-title">Applicant's Table</h6>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">First Choice</th>
+                        <th scope="col">Second Choice</th>
+                        <th scope="col">GPA</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mike Ross</td>
+                        <td>BSN</td>
+                        <td>BSIT</td>
+                        <td>90.1</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Harvey Specter</td>
+                        <td>BSMT</td>
+                        <td>BEED</td>
+                        <td>89.5</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Louis Litt</td>
+                        <td>BSB</td>
+                        <td>BSN</td>
+                        <td>94.3</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Jessica Pearson</td>
+                        <td>BSIT</td>
+                        <td>BSN</td>
+                        <td>95.3</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Donna Paulsen</td>
+                        <td>BSPT</td>
+                        <td>BSN</td>
+                        <td>94.3</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
         </div>
     </div>
 </template>
 <style scoped>
 .wrapper {
     width: 100%;
-    height: 120vh;
+    height: 115vh;
     overflow: hidden;
     background-color: #f8f7f7;
 }
@@ -54,7 +105,7 @@
 }
 .sidebar {
     grid-column: 1 / 3;
-    grid-row: 1 / 11;
+    grid-row: 1 / 9;
     width: 17rem;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     background-color: white;
@@ -143,5 +194,10 @@ a:hover {
 }
 .green {
     background-color: #5ea954;
+}
+.tables {
+    grid-column: 3 / 10;
+    grid-row: 5 / 10;
+    margin: 1rem 2rem;
 }
 </style>
