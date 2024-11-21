@@ -88,6 +88,19 @@
                     </tbody>
                   </table>
             </div>
+            <div class="courses">
+                <h6 class="box-title">Top Pick Courses</h6>
+                <div class="course-box">
+                    <h6 class="top-courses">Top Courses:</h6>
+                    <ol>
+                        <li>Bachelor of Science in Information Technology</li>
+                        <li>Bachelor of Science in Nursing</li>
+                        <li>Bachelor of Science in Business Administration</li>
+                        <li>Bachelor of Science in Biology</li>
+                        <li>Bachelor of Science in Agriculture</li>
+                    </ol>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -130,7 +143,7 @@
     padding: 0;
     font-size: 1.3rem;
 }
-li {
+links.li {
     list-style: none;
 }
 a {
@@ -197,7 +210,30 @@ a:hover {
 }
 .tables {
     grid-column: 3 / 10;
-    grid-row: 5 / 10;
+    grid-row: 5 / 9;
     margin: 1rem 2rem;
+}
+table {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.courses {
+    grid-column: 10 / 13;
+    margin: 1rem;
+    grid-row: 5 / 9;
+}
+.course-box {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    height: 90%;
+    border-radius: 0.6rem;
+    background: white;
+    padding: 1rem;
+}
+.top-courses {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+ol li {
+    margin-top: 0.7rem;
+    font-size: 0.9rem;
 }
 </style>
