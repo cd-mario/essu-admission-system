@@ -1,7 +1,9 @@
 <template>
     <div class="wrapper">
         <h1 class="title">ESSU Admission Form</h1>
-        <form action="">
+        <p class="note"><strong>Note: </strong>You must <strong>login</strong> to access the admission form.</p>
+        <p class="desc">Enter your following information below</p>
+        <hr>
             <div class="cont">
                     <form>
                         <h3 class="title-2 name">Name</h3>
@@ -80,28 +82,24 @@
                         </div>
                       </form>
             </div>
-        </form>
     </div>
 </template>
 <style scoped>
 .wrapper {
-    width: 65%;
+    width: 78%;
     border-radius: 0.7rem;
     margin: 2rem auto;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding: 2rem;
+    padding: 3rem 2rem;
     height: 280vh;
 }
 .title {
-    font-weight: 300;
-    text-align: center;
+  font-weight: 500;
+  color: #4b6043;
+  margin-bottom: 1rem;
+  font-size: 3rem;
 }
 .title-2 {
     font-weight: 300;
-}
-.cont {
-    width: 80%;
-    margin: 3rem auto;
 }
 .form-wrapper {
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -120,5 +118,15 @@
 }
 button {
     padding: 0.6rem 2.5rem;
+}
+.note {
+  background: rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  padding: 0.1rem 0.6rem;
+  font-size: 0.8rem;
+}
+.desc {
+  margin-top: 1rem;
+  font-weight: 500;
 }
 </style>
