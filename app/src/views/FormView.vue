@@ -74,10 +74,6 @@
                             </div>
                         </div>
                         <div class="right">
-                            <div class="form-check">
-                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div>
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                       </form>
@@ -106,7 +102,7 @@
     height: 17rem;
     border-radius: 0.6rem;
     padding: 1rem 2rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background: white;
     margin-bottom: 2.5rem;
 }
@@ -117,7 +113,8 @@
     height: 22rem;
 }
 button {
-    padding: 0.6rem 2.5rem;
+    padding: 0.6rem 3rem;
+    width: 10rem;
 }
 .note {
   background: rgba(0, 0, 0, 0.1);
@@ -128,5 +125,8 @@ button {
 .desc {
   margin-top: 1rem;
   font-weight: 500;
+}
+.right {
+  text-align: center;
 }
 </style>
