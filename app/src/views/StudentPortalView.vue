@@ -54,7 +54,7 @@ header {
 .btn-dark {
     position: absolute;
     right: 2rem;
-    top: 16rem;
+    top: 2rem;
     padding: 0.6rem 2rem;
 }
 #grid {
@@ -77,10 +77,10 @@ header {
 }
 .status2 {
     position: absolute;
-    right: 6rem;
-    top: 24.7rem;
+    right: 10rem;
+    top: 11.5rem;
     font-weight: 400;
-    padding: 0.6rem 0.7rem;
+    padding: 0.8rem 1rem;
     background: #f8d731;
     border-radius: 0.5rem;
 }
