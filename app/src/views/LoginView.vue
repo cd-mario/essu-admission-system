@@ -17,7 +17,8 @@
                     <br>
                     <button type="button" class="btn btn-primary mt-3">Login</button>
                     <br>
-                    <small>Don't have an account? <RouterLink :to="{ name: 'Register'}">Register here.</RouterLink></small>
+                    <small>Don't have an account? <RouterLink :to="{ name: 'Register'}">Register here.</RouterLink></small> <br>
+                    <small class="home">If you are here as visitor go to <RouterLink :to="{ name: 'Home'}">Landing page.</RouterLink></small>
                 </form>
             </div>
         </div>
@@ -26,7 +27,6 @@
 <style scoped>
 .container {
     width: 100%;
-    height: 100vh;
 }
 #grid {
     display: grid;
