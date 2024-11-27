@@ -1,61 +1,70 @@
+<script setup>
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
+</script>
+
 <template>
-  <div class="container p-5">
-    <h1 class="title">Admission Procedure</h1>
-    <div class="standards">
-      <RouterLink :to="{ name: 'Home' }" class="back"><button type="button" class="btn btn-light">Back</button></RouterLink>
-      <h3 class="title-2">Online Admission Process</h3>
-      <div class="card">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"> 
-            <span class="num-list">1.</span> Applicants must complete the initial registration form to create a unique user account for future access.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">2.</span> Once registered, log in to your account using the credentials provided during registration. This account will serve as the primary platform to monitor your application’s status and complete further steps.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">3.</span> Complete and submit the online application form, providing all necessary personal, academic, and supporting details. Please ensure all information is accurate, as this is crucial for processing your application.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">4.</span> Upon submission, our admissions team will thoroughly review and validate your credentials and information. This step is essential to ensure all criteria and prerequisites for admission are met.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">5.</span> Following the validation process, applicants will be notified of the outcome. Based on the evaluation, applications will either be approved or declined. Approved applicants will receive further instructions regarding the next steps in the enrollment process.
-          </li>
-        </ul>
+  <div>
+    <Navbar />
+    <div class="container p-5">
+      <h1 class="title">Admission Procedure</h1>
+      <div class="standards">
+        <RouterLink :to="{ name: 'Home' }" class="back"><button type="button" class="btn btn-light">Back</button></RouterLink>
+        <h3 class="title-2">Online Admission Process</h3>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <span class="num-list">1.</span> Applicants must complete the initial registration form to create a unique user account for future access.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">2.</span> Once registered, log in to your account using the credentials provided during registration. This account will serve as the primary platform to monitor your application’s status and complete further steps.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">3.</span> Complete and submit the online application form, providing all necessary personal, academic, and supporting details. Please ensure all information is accurate, as this is crucial for processing your application.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">4.</span> Upon submission, our admissions team will thoroughly review and validate your credentials and information. This step is essential to ensure all criteria and prerequisites for admission are met.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">5.</span> Following the validation process, applicants will be notified of the outcome. Based on the evaluation, applications will either be approved or declined. Approved applicants will receive further instructions regarding the next steps in the enrollment process.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="standards">
+        <h3 class="title-2">Entrance standards</h3>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="standards">
+        <h3 class="title-2">Enrollment Requirements</h3>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <span class="num-list">1.</span> Duly certified (by Principal or his / her authorized representative) Xerox copy of High School Report Card / Form 138 showing at least up to 2nd grading period.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">2.</span> GPA of 80% or better with no grades lower than 80 in English, Math, Science.
+            </li>
+            <li class="list-group-item">
+              <span class="num-list">3.</span> 3 pieces of recent 2x2 clear close-up ID picture.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="standards">
-      <h3 class="title-2">Entrance standards</h3>
-      <div class="card">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"> 
-            <span class="num-list">1.</span> The University accepts applications from all high school graduates who meet the necessary qualifications and GPA requirements.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">2.</span> All prospective college students will be required to complete screening and testing.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">3.</span> Students who fulfill the admission criteria and succeed in the entrance exam are eligible for enrollment.
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="standards">
-      <h3 class="title-2">Enrollment Requirements</h3>
-      <div class="card">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"> 
-            <span class="num-list">1.</span> Duly certified (by Principal or his / her authorized representative) Xerox copy of High School Report Card / Form 138 showing at least up to 2nd grading period.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">2.</span> GPA of 80% or better with no grades lower than 80 in English, Math, Science.
-          </li>
-          <li class="list-group-item">
-            <span class="num-list">3.</span> 3 pieces of recent 2x2 clear close-up ID picture.
-          </li>
-        </ul>
-      </div>
-    </div>
+    <Footer />
   </div>
 </template>
 
