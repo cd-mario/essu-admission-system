@@ -1,47 +1,55 @@
+<script setup>
+import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
+</script>
 <template>
-    <div class="superwrapper">
-      <div class="overlay">
-        <div class="wrapper">
-          <div class="title">
-              <h1><span class="highlight px-3">2024-2025</span> <br> ESSU Admission <br> System</h1>
-              <h5>In <span class="highlight px-1">Eastern Samar State University</span>, we offer innumerable opportunities for aspiring students.</h5>
-              <div class="buttons">
-                <button type="button" class="btn btn-outline-success">Enroll</button>
-                <RouterLink :to="{ name: 'Procedure'}">
-                  <button type="button" class="btn btn-info">Learn more</button>
-                </RouterLink>
-              </div>
-              <small>*Our admission process is designed to be <strong>simple</strong> and <strong>efficient</strong>, ensuring that your journey with us begins smoothly.</small>
-          </div>
-          <div class="features">
-            <RouterLink :to="{ name: 'Procedure'}" class="nav-link">
-              <h2>Admission Process</h2>
-            </RouterLink>
-            <hr>
-            <ol>
-              <li>
-                <span>Register online</span>
-              </li>
+    <div>
+      <Navbar />
+      <div class="superwrapper">
+        <div class="overlay">
+          <div class="wrapper">
+            <div class="title">
+                <h1><span class="highlight px-3">2024-2025</span> <br> ESSU Admission <br> System</h1>
+                <h5>In <span class="highlight px-1">Eastern Samar State University</span>, we offer innumerable opportunities for aspiring students.</h5>
+                <div class="buttons">
+                  <button type="button" class="btn btn-outline-success">Enroll</button>
+                  <RouterLink :to="{ name: 'Procedure'}">
+                    <button type="button" class="btn btn-info">Learn more</button>
+                  </RouterLink>
+                </div>
+                <small>*Our admission process is designed to be <strong>simple</strong> and <strong>efficient</strong>, ensuring that your journey with us begins smoothly.</small>
+            </div>
+            <div class="features">
+              <RouterLink :to="{ name: 'Procedure'}" class="nav-link">
+                <h2>Admission Process</h2>
+              </RouterLink>
               <hr>
-              <li>
-                <span>Login account</span>
-              </li>
-              <hr>
-              <li>
-                <span>Apply online</span>
-              </li>
-              <hr>
-              <li>
-                <span>Validation of credentials</span>
-              </li>
-              <hr>
-              <li>
-                <span>Rejection/Approval of application</span>
-              </li>
-            </ol>
+              <ol>
+                <li>
+                  <span>Register online</span>
+                </li>
+                <hr>
+                <li>
+                  <span>Login account</span>
+                </li>
+                <hr>
+                <li>
+                  <span>Apply online</span>
+                </li>
+                <hr>
+                <li>
+                  <span>Validation of credentials</span>
+                </li>
+                <hr>
+                <li>
+                  <span>Rejection/Approval of application</span>
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
 </template>
 

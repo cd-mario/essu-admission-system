@@ -1,3 +1,6 @@
+<script>
+
+</script>
 <template>
     <div class="wrapper">
         <h1 class="title">ESSU Admission Form</h1>
