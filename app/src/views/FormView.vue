@@ -82,7 +82,7 @@
 </template>
 <style scoped>
 .wrapper {
-    width: 78%;
+    width: 67%;
     border-radius: 0.7rem;
     margin: 2rem auto;
     padding: 3rem 2rem;
