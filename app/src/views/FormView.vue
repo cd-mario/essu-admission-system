@@ -86,7 +86,7 @@
     border-radius: 0.7rem;
     margin: 2rem auto;
     padding: 3rem 2rem;
-    height: 290vh;
+    height: 285vh;
 }
 .title {
   font-weight: 500;
