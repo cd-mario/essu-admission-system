@@ -12,7 +12,9 @@ import Footer from '../components/Footer.vue'
                 <h1><span class="highlight px-3">2024-2025</span> <br> ESSU Admission <br> System</h1>
                 <h5>In <span class="highlight px-1">Eastern Samar State University</span>, we offer innumerable opportunities for aspiring students.</h5>
                 <div class="buttons">
-                  <button type="button" class="btn btn-outline-success">Enroll</button>
+                  <RouterLink :to="{ name: 'Login' }">
+                    <button type="button" class="btn btn-outline-success">Enroll</button>
+                  </RouterLink>
                   <RouterLink :to="{ name: 'Procedure'}">
                     <button type="button" class="btn btn-info">Learn more</button>
                   </RouterLink>
