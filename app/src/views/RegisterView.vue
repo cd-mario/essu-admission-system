@@ -15,7 +15,6 @@
                     <input type="text" placeholder="Enter your last name" required>
                     <input type="email" placeholder="Enter your email" required>
                     <input type="password" placeholder="Enter your password" required>
-                    <input type="password" placeholder="Confirm password" required>
                     <br>
                     <button type="button" class="btn btn-primary mt-3">Login</button>
                     <br>
