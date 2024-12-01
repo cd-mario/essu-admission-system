@@ -9,5 +9,20 @@ use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
-    //
+    public function check(Request $request)
+    {
+
+        $credentials = $request->validate([
+            'email' => ['required' => 'email'],
+            'password' => ['required']
+        ]);
+
+        if(Auth::attempt($credentials))
+        {
+            return response()->json(['status' => true,
+                                    'message' => "Login successful"
+        ]);
+        }
+        return response()->json(['status' => false]);
+    }
 }
