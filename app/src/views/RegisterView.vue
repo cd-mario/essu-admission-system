@@ -1,3 +1,41 @@
+<script>
+export default {
+    data() {
+        return {
+            result: {},
+            student: {
+                fName: '',
+                sName: '',
+                email: '',
+                password: ''
+            }
+        }
+    },
+    methods: {
+        saveData() {
+            axios.post("http://127.0.0.1:8000/api/register", this.student)
+            .then(
+                ({data})=>{
+                    console.log(data);
+                    try {
+                        alert('Registration successful');
+                    }
+                    catch(err) {
+                        alrt("Failed to register");
+                    }
+                }
+            )
+        },
+        // passCheck() {
+        //     if(this.student.password.length < 4) {
+        //         alert("Password is too short!");
+        //     }
+        //     return false;
+        // }
+    }
+
+}
+</script>
 <template>
     <!-- need to remove navbar and footer in login page -->
     <div class="container">
@@ -8,15 +46,15 @@
                 <h1 class="login-title">
                     ESSU Admission System
                 </h1>
-                <form action="">
+                <form @submit.prevent="saveData">
                     <h2>Register</h2>
                     <p>Create a new account by filling in your details below.</p>
-                    <input type="text" placeholder="Enter your first name" required>
-                    <input type="text" placeholder="Enter your last name" required>
-                    <input type="email" placeholder="Enter your email" required>
-                    <input type="password" placeholder="Enter your password" required>
+                    <input type="text" v-model="student.fName" placeholder="Enter your first name" required>
+                    <input type="text" v-model="student.sName" placeholder="Enter your last name" required>
+                    <input type="email" v-model="student.email" placeholder="Enter your email" required>
+                    <input type="password" v-model="student.password" placeholder="Enter your password" required>
                     <br>
-                    <button type="button" class="btn btn-primary mt-3">Login</button>
+                    <button type="submit" class="btn btn-primary mt-3">Login</button>
                     <br>
                     <small>Already have an account? <RouterLink :to="{ name: 'Login'}">Login here.</RouterLink></small>
                     <br>
