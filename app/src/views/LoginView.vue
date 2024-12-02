@@ -12,7 +12,7 @@
                     <h2>Login</h2>
                     <p>Input your details to sign in to you account.</p>
 
-                    <input type="text" placeholder="Enter your name/email" required>
+                    <input type="text" placeholder="Enter your email" required>
                     <input type="password" placeholder="Enter your password" required>
                     <br>
                     <button type="button" class="btn btn-primary mt-3">Login</button>
