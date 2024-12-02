@@ -54,7 +54,7 @@ export default {
                     <input type="email" v-model="student.email" placeholder="Enter your email" required>
                     <input type="password" v-model="student.password" placeholder="Enter your password" required>
                     <br>
-                    <button type="submit" class="btn btn-primary mt-3">Login</button>
+                    <button type="submit" class="btn btn-primary mt-3">Register</button>
                     <br>
                     <small>Already have an account? <RouterLink :to="{ name: 'Login'}">Login here.</RouterLink></small>
                     <br>
