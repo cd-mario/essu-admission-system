@@ -23,9 +23,10 @@ class LoginController extends Controller
                                     'message' => "Login successful"
         ]);
         }
-        return response()->json(['status' => false]);
+        
+        return response()->json(['status' => false,
+                                'message' => "Login failed"
+        ]);
+
     }
-
-
-    // to be continued...
 }
