@@ -38,6 +38,8 @@ export default {
             })
         }
 
+        // ADD PASSWORD CHECKER PRIORITY LEVEL: 2
+
         // passCheck() {
         //     if(this.student.password.length < 4) {
         //         alert("Password is too short!");

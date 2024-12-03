@@ -2,7 +2,8 @@
     <div class="wrapper">
         <header>
             <img src="../assets/images/essu.png"  alt="essu logo" width="280">
-            <button type="button" class="btn btn-dark">Logout</button>
+            <RouterLink :to="{ name: 'Login'}"><button type="button" class="btn btn-dark">Logout</button></RouterLink>
+            <!-- ADD MODAL AFTER CLICKING THE LOGOUT BUTTON PRIORITY LEVEL: 3 -->
         </header>
         <div id="grid">
             <div class="status">

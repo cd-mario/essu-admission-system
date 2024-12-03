@@ -41,7 +41,6 @@ export default {
 </script>
 
 <template>
-    <!-- need to remove navbar and footer in login page -->
     <div class="container">
         <div id="grid">
                 <div class="image">
