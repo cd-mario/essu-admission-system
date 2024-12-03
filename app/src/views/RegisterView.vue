@@ -1,31 +1,43 @@
 <script>
+import axios from 'axios'
 export default {
     data() {
         return {
             result: {},
             student: {
-                fName: '',
-                sName: '',
+                first_name: '',
+                last_name: '',
                 email: '',
                 password: ''
             }
         }
     },
+    created() { 
+
+    },
+    mounted() {
+            console.log("mounted() called.......");
+     },
     methods: {
         saveData() {
-            axios.post("http://127.0.0.1:8000/api/register", this.student)
-            .then(
-                ({data})=>{
-                    console.log(data);
-                    try {
-                        alert('Registration successful');
-                    }
-                    catch(err) {
-                        alrt("Failed to register");
-                    }
-                }
-            )
-        },
+        axios.post('http://127.0.0.1:8000/api/register', this.student)
+        .then(res => {
+            console.log(res.data)
+            alert(res.data.message)
+
+            this.student = {
+              first_name: '',
+              last_name: '',
+              email: '',
+              password: '',
+            }
+            })
+            .catch(function (error){
+                console.log(error)
+                alert('Register failed')
+            })
+        }
+
         // passCheck() {
         //     if(this.student.password.length < 4) {
         //         alert("Password is too short!");
@@ -37,7 +49,6 @@ export default {
 }
 </script>
 <template>
-    <!-- need to remove navbar and footer in login page -->
     <div class="container">
         <div id="grid">
                 <div class="image">
@@ -49,8 +60,8 @@ export default {
                 <form @submit.prevent="saveData">
                     <h2>Register</h2>
                     <p>Create a new account by filling in your details below.</p>
-                    <input type="text" v-model="student.fName" placeholder="Enter your first name" required>
-                    <input type="text" v-model="student.sName" placeholder="Enter your last name" required>
+                    <input type="text" v-model="student.first_name" placeholder="Enter your first name" required>
+                    <input type="text" v-model="student.last_name" placeholder="Enter your last name" required>
                     <input type="email" v-model="student.email" placeholder="Enter your email" required>
                     <input type="password" v-model="student.password" placeholder="Enter your password" required>
                     <br>

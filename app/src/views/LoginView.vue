@@ -1,3 +1,45 @@
+<script>
+import axios from 'axios';
+export default {
+    data() {
+        return {
+            result: {},
+            student: {
+            email: '',
+            password: '',
+            }
+        }
+    },
+    created() {
+
+    },
+    mounted() {
+        console.log("mounted() called.......");
+    },
+    methods: {
+        loginData() {
+            axios.post("http://127.0.0.1:8000/api/login", this.student)
+               .then(
+                 ({data})=>{
+                  console.log(data);
+                  try {
+                  if (data.status === true) {
+                        alert("Login Successfully"); 
+                        this.$router.push({ name: 'Portal' })
+                        } else {
+                        alert("Login failed")
+                        }
+
+                        } catch (err) {
+                        alert("Error, please try again");
+                        }    
+                 }
+               )
+        }
+    }
+}
+</script>
+
 <template>
     <!-- need to remove navbar and footer in login page -->
     <div class="container">
@@ -8,14 +50,14 @@
                 <h1 class="login-title">
                     ESSU Admission System
                 </h1>
-                <form action="">
+                <form @submit.prevent="loginData">
                     <h2>Login</h2>
                     <p>Input your details to sign in to you account.</p>
 
-                    <input type="text" placeholder="Enter your email" required>
-                    <input type="password" placeholder="Enter your password" required>
+                    <input type="email" v-model="student.email" placeholder="Enter your email" required>
+                    <input type="password" v-model="student.password" placeholder="Enter your password" required>
                     <br>
-                    <button type="button" class="btn btn-primary mt-3">Login</button>
+                    <button type="submit"  class="btn btn-primary mt-3">Login</button>
                     <br>
                     <small>Don't have an account? <RouterLink :to="{ name: 'Register'}">Register here.</RouterLink></small> <br>
                     <small class="home">If you are here as visitor go to <RouterLink :to="{ name: 'Home'}">Landing page.</RouterLink></small>
