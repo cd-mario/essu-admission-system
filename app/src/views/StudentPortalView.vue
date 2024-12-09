@@ -1,13 +1,13 @@
+
 <template>
     <div class="wrapper">
         <header>
             <img src="../assets/images/essu.png"  alt="essu logo" width="280">
             <RouterLink :to="{ name: 'Login'}"><button type="button" class="btn btn-dark">Logout</button></RouterLink>
-            <!-- ADD MODAL AFTER CLICKING THE LOGOUT BUTTON PRIORITY LEVEL: 3 -->
         </header>
         <div id="grid">
             <div class="status">
-                <h1 class="greetings">Good Day, <span class="name">John Doe!</span></h1>
+                <h1 class="greetings">Good Day, <span class="name"> John Doe</span></h1>
                 <h6 class="status2">Admission Status: <span class="result">Processing</span></h6>
             </div>
             <div class="personal-info wrapper2">

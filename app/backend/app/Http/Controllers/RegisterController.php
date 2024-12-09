@@ -27,5 +27,26 @@ class RegisterController extends Controller
                                     
         ]);
     }
+    public function getRegisterData()
+    {
+        try {
+            // Fetch all registration data
+            $registerData = User::all(); // Replace Register with your model
+
+            // Return the data as JSON
+            return response()->json([
+                'success' => true,
+                'data' => $registerData,
+            ], 200);
+        } catch (\Exception $e) {
+            // Handle errors and return a failure response
+            return response()->json([
+                'success' => false,
+                'message' => 'Failed to fetch data.',
+                'error' => $e->getMessage(),
+            ], 500);
+        }
+    }
+
 
 }
