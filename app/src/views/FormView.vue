@@ -81,7 +81,7 @@ import Footer from '../components/Footer.vue'
                               </div>
                           </div>
                           <div class="right">
-                              <button type="submit" class="btn btn-primary">Submit</button>
+                              <RouterLink :to="{name: 'Login'}"><button type="submit"  class="btn btn-primary">Submit</button></RouterLink>
                           </div>
                         </form>
               </div>
@@ -124,6 +124,7 @@ import Footer from '../components/Footer.vue'
 button {
     padding: 0.6rem 3rem;
     width: 10rem;
+    color: white;
 }
 .note {
   background: rgba(0, 0, 0, 0.1);
